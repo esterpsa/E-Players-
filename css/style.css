@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 :root{
 
@@ -21,7 +22,7 @@ body{
     background-color: var(--backgraund)
 }
 img{
-    width: 25%;
+    width: 100%;
 }
 .topo{
     width: 100%;
@@ -35,18 +36,23 @@ img{
     margin: auto;
    /* background-color: burlywood;*/
 }
+.content img{
+    width: 20%;
+}
 .flex-center-bt{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .topo img{
-    max-width: 21.18em;
+    max-width: 25%;
+    /* background-color: brown; */
 
 }
 .menu{
     width: 100%;
     max-width: 50em;
+    font-family: 'Roboto', sans-serif;
 }
 .menu ul{
     list-style-type: none;
@@ -57,7 +63,7 @@ img{
 .menu a{
     color:#fff;
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1.3em;
     padding: 0.3em 0.5em;
     text-transform: uppercase;
 }
@@ -66,6 +72,78 @@ img{
 }
 #menu-bars{
     display: none;
+}
+.banner img{
+    width: 80%;
+}
+.banner{
+    width: 100%;
+    position: relative;
+}
+.banner-position{
+    width: 100%;
+    height: 100%;
+    /* background-color: #002070e0; */
+    position: absolute;
+    top:0;
+}
+.banner-content{
+    width: 80%;
+    height: 100%;
+    /* background-color: rgba(222, 184, 135, 0.308); */
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.banner-text{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgba(100, 148, 237, 0.432); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.banner-text h1{
+    font-size: 4em;
+    text-transform: uppercase;
+}
+.banner-text p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+}
+.banner-text a{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    color: #fff;
+    text-decoration: none;
+    background-color: var(--red);
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    margin-top: 1em;
+}
+.flex-center-bt img{
+    width: 77%; 
+ }
+ .content .flex-center-bt{
+     width: 100%;
+     align-items: center;
+     /* background-color: blueviolet; */
+ }
+ .jogos{
+    width: 100%;
+    height: 6em;
+    /* background-color: chartreuse; */
+}
+.jogos ul{
+    list-style-type: none;
+    width: 100%;
+}
+.jogos ul a:hover img{
+    transition: 0.2s;
+    transform: scale(1.1);
 }
 @media screen and (max-width: 74.93em){
 
