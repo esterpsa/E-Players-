@@ -284,12 +284,9 @@ img{
     justify-content: space-around;
     align-items: center;
     box-shadow: 0px 0px 15px rgb(59, 59, 59);
-
-
-
 }
 .game{
-    width: 90%;
+    width: 90%; 
     height: auto;
     display: flex;
     flex-direction: column;
@@ -315,6 +312,45 @@ img{
 .times img{
     width: 2.5em;
 }
+.rodape{
+    padding: 1em 0;
+    color:#fff;
+}
+.logo-rodape{
+    max-width: 18.75em;
+}
+.links-footer{
+    width: 33%;
+    display: flex;
+    justify-content: space-between;
+}
+.links h2{
+    font-size: 1.5em;
+    color: #fff;
+}
+.links ul{
+    color:#fff;
+    margin-top: 0.5em;
+}
+.links li{
+    margin-left: 2em;
+}
+.links a{
+    text-decoration: none;
+    color:#fff;
+}
+.sociais{
+    width: 33%;
+
+}
+.newslatter h2{
+    font-size: 0.875em;
+    margin-bottom: 0.5em;
+}
+.newslatter form{
+    display: flex;
+}
+
 @media screen and (max-width: 74.93em){
 
 }
