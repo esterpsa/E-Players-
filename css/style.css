@@ -6,6 +6,7 @@
     --backgraund: #000000;
     --red: #C20000;
     --blue: #001f70;
+    --black1: #1E1C21;
     --gradiente: linear-gradient(180deg, #000000 0%, rgba(83, 83, 83, 0.577381) 25%, rgba(196, 196, 196, 0) 87.5%);
     --font: 'Titillium Web', sans-serif;
 }
@@ -231,6 +232,88 @@ img{
 }
 .time2 img{
     margin-right: 0.5em;
+}
+.bg-noticias{
+    width: 100%;
+    height: auto;
+    background-color: var(--black1);
+}
+.noticias{
+    width: 70%;
+    height: 90%;
+    /* background-color: darkgray; */
+}
+.noticias h2, .proximos-jogos h2{
+    color: #fff;
+    margin: 0.5em 0;
+    font-size: 2em;
+    text-transform: uppercase;
+    /* background-color: crimson; */
+}
+.proximos-jogos{
+    width: 23%;
+    height:auto;
+    margin-bottom: 2.5em;
+}
+.newscard{
+    width: 100%;
+    max-width: 15em;
+    height: 23.125em;
+    background: var(--gradient);
+    color: #fff;
+    margin-bottom: 1.5em;
+    box-shadow: 0px 0px 15px rgb(59, 59, 59);
+}
+.noticias h3{
+    padding: 0.5em;
+    text-transform: uppercase;
+}
+.noticias p{
+    padding: 0em 0.7em;
+    /* text-align: justify; */
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.proximas-partidas{
+    width: 100%;
+    background: var(--gradient);
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 0px 15px rgb(59, 59, 59);
+
+
+
+}
+.game{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#fff;
+}
+.times{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.times div{
+    display: flex;
+    align-items: center;
+}
+.times p{
+    font-size: 1.25em;
+    font-family: 'Roboto';
+}
+.times > p{
+    margin: 0 1em;
+}
+.times img{
+    width: 2.5em;
 }
 @media screen and (max-width: 74.93em){
 
