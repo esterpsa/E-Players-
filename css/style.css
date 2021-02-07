@@ -106,12 +106,12 @@ img{
     color: #fff;
 }
 .banner-text h1{
-    font-size: 4em;
+    font-size: 3em;
     text-transform: uppercase;
 }
 .banner-text p{
     font-family: 'Roboto', sans-serif;
-    font-size: 1.3em;
+    font-size: 1em;
 }
 .banner-text a{
     font-family: 'Roboto', sans-serif;
@@ -122,7 +122,7 @@ img{
     background-color: var(--red);
     padding: 0.5em 1em;
     border-radius: 0.5em;
-    margin-top: 1.5em;
+    margin-top: 1em;
 }
 .flex-center-bt img{
     width: 77%; 
@@ -246,14 +246,15 @@ img{
 .noticias h2, .proximos-jogos h2{
     color: #fff;
     margin: 0.5em 0;
-    font-size: 2em;
+    font-size: 1.5em;
     text-transform: uppercase;
     /* background-color: crimson; */
 }
 .proximos-jogos{
     width: 23%;
     height:auto;
-    margin-bottom: 2.5em;
+    margin-bottom: 30em;
+    margin-top: 3em;
 }
 .newscard{
     width: 100%;
@@ -351,80 +352,387 @@ img{
     display: flex;
 }
 
+.newslatter input[type="email"]{
+    width: 12.5em;
+    height: 2.5em;
+    font-size: 1.1em;
+    padding-left: 1em;
+}
+.newslatter input[type="email"]::placeholder{
+    color: rgb(102, 102, 102);
+    font-weight: bold;
+}
+.newslatter input[type="submit"]{
+    width: 9.75em;
+    height: 2.5em;
+    font-size: 1.1em;
+    background-color:purple;
+    color: #fff;
+    text-transform: uppercase;
+}
+.siga-nos{
+    margin-top: 1em;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+}
+
+
 @media screen and (max-width: 74.93em){
-    .topo img{
-        width: 20%;
-        /* background-color: chartreuse */   
+    .content{
+        max-width: 74.9375em;
+        width: 80%;
     }
-    .topo{
+   
+    .topo img{
+        max-width: 74.9375em;
+        width: 10em;
+    }
+
+    .menu{
+        font-size: .7em;
+        margin-left:2.5em;
+    }
+
+    .about-position img{
+        max-width:74.9375em;
+        width: 40%;
+    }
+
+    .banner-text h2{
+        font-size: 15px;
+    }
+
+    .jogos-ao-vivo{
+        max-width: 74.9375em;
+        width: 15.625em;
+        font-size: 1.2em;
+    }
+
+    .jogos-em-breve{
+        max-width: 74.9375em;
+        width: 23.4375em; 
+        font-size: 1.2em;
+    }
+    
+    .rodape img{
+        width: 20%;
+    }
+
+    .siga-nos h2{
+        font-size: 90%;
+    }
+
+    .newslatter form{
+        font-size: 80%;
+    }
+
+    .newslatter h2{
+        text-align: center;
+    }
+
+    .siga-nos img{
+        width: 75%;
+    }
+
+    .noticias{
+        width: 70%;
+    }
+
+    .times p{ 
+        margin: 0.2em;
+    }
+}
+
+@media screen and (max-width: 61.9375em){ 
+    .content{
+        max-width: 61.9375em;
         width: 100%;
     }
-    .menu a{
-        max-width: 1em;
-        font-size: 1em;
-        margin-left: 1.5em;
-    }
+
     .banner-text h1{
-        font-size: 2.5em;
+        font-size: 38px;
     }
-    .banner-content{
-       margin-left: 10em;
+
+    .banner-text p{
+        font-size: 16px;
     }
-    .banner-content a{
-        margin-top: 1em;
-        /* background-color: chartreuse; */
+
+    .banner-text a{
+        font-size: 16px;
     }
-   .about img{
-       /* background-color: chartreuse; */
-       width: 100%;
-       height: 80%;
+
+    .newslatter form{
+        font-size: 60%;
     }
-    .about-text h2{
-        font-size: 1.5em;
-        margin-bottom: 1em;
-    }
-    .about-text p{
-        font-size: 1em;
-        margin-bottom: 1em;
-    }
-    .jogos-aovivo{
-        color: #fff;
-    }
-    .jogos-aovivo h2 .jogos-embreve h2{
-        font-size: 1em;
-    }
-    .jogos-aovivo p {
-        /* color: blue; */
-        font-size: 0.8em;
-    }
-    .jogos-embreve p{
-        /* color: blueviolet; */
-        font-size: 0.8em;
-    }
-    .jogos-embreve{
-        color: #fff;
-    }
-    .jogos-embreve h2{
-        margin-left: 1em;
-    }
-    .noticias h2, .proximos-jogos h2{
-        font-size: 1.5em;
-    }
-    .proximas-partidas{
-        margin-bottom: 20em;
-    }
-    .linha{
-        margin-left: 1em;
-    }
-  .newscard{
-      margin: auto;
-  }
+
+    
+   
 }
 
 @media screen and (max-width: 47.93em){
 
+    .content{
+        max-width: 61.9375em;
+        width: 100%;
+    }
+
+    .banner-text h1{
+        font-size: 38px;
+    }
+
+    .banner-text p{
+        font-size: 16px;
+    }
+
+    .banner-text a{
+        font-size: 16px;
+    }
+
+    .newslatter form{
+        font-size: 60%;
+    }
+    .about-text{
+        width: 58%;
+        
+    }
+
+    .about-text h2{
+        font-size: 25px;
+    }
+
+    .jogos-ao-vivo{
+        max-width: 61.9375em;
+        width: 12.5em;
+        font-size: 1.2em;
+    }
+
+    .jogos-ao-vivo h2{
+        font-size: 25px;
+    }
+
+    .jogos-em-breve h2{
+        font-size: 25px;
+    }
+
+    .links h2{
+        font-size: 18px;
+
+    }
+
+    .links li{
+        margin-left: 0.5em;
+        list-style-type: none;
+        
+    }
+
+    .copyright{
+        font-size: 14px;
+    }
+
+    .siga-nos{
+        font-size: 13.5px;
+    }
+
+    .noticias h2{
+        font-size: 25px;
+    }
+    .proximos-jogos h2{
+        font-size: 25px;
+    }
 }
+
+/* Resolução de 576 até 767 (Tablet)*/
+
+@media screen and (max-width: 47.9375em){ 
+  
+    .btnMenu{
+        display: block;
+        color: #fff;
+        margin-left: auto;
+        width: 4em;
+    }
+   
+    #meusLinks{
+        display: none;
+        flex-direction: column;
+        z-index: 99;
+        width: 100%;
+        height: 350px;
+        background-color: #000;
+        justify-content: space-around;
+        position: absolute;
+        top: 70px;
+        left: 0px;
+    }
+
+    .menu{
+        display: flex;
+    }
+
+    .menu a{
+        padding: 0.9em 0.8em;
+    }
+
+    .menu a:hover{
+        display: none;
+    }
+
+    .desktop_only{
+        display: none;
+    }
+
+   .proximas-partidas{
+        display: flex;
+    }
+
+   .bg-noticias{
+       flex-wrap: wrap;
+   }
+
+   
+   .about-text{
+       width: 60%;
+       font-size: 80%;
+   }
+
+   .about-position img{
+       width: 35%;
+   }
+
+   .jogos-ao-vivo h2{
+       font-size: 1.2em;
+       
+   }
+
+   .jogos-em-breve h2{
+       font-size: 1.2em;
+       margin-left: 1em;
+   }
+
+   .linha{
+       margin-left: 1.5em;
+   }
+
+   .jogos{
+       height: auto;
+   }
+    
+   .bg-noticias .content.flex-center-bt{
+       display: block;
+   }
+       
+   .flex-center-bt .wrap{
+       width: 550px;
+   }    
+   
+   .proximos-jogos{
+       margin: auto;
+       width: auto;
+   }
+
+   .noticias{
+       width: 550px;
+   }
+
+   .links{
+        top: auto;
+        font-size: 12px;
+    }
+
+   .links h2{
+       font-size: 16px;
+   }
+
+   .links-footer{
+       width: 45%;
+   }
+
+   .sociais{
+       width: 45%;
+   }
+
+   .logo-rodape{
+       display: none;
+   }
+       
+   
+}
+
+/*Resolução de 375 até 575 (Mobile)*/
 
 @media screen and (max-width: 35.93em){
 
+    .noticias{
+        width: 375px;
+    }
+
+    .noticias .mobile_only{
+        display: none;
+    }
+
+    .flex-center-bt .wrap{
+        width: 375px;
+    }
+
+    .about-position img{
+        display: none;
+    }
+
+    .jogos .mobile_only{
+        display: none;
+    }
+
+    .links-footer{
+        display: none;
+      
+    }
+        
+    .newscard{
+        margin:auto;
+        margin-top: .5em;
+    }
+
+ 
+    .jogos-ao-vivo{
+        margin: auto;
+        padding-top: .5em;
+    }
+
+    .about-text{
+        width: 100%;
+        margin: auto;
+    }
+
+    .banner-text h1{
+        display: none;
+    }
+
+    .banner-text p{
+        margin-left: 1em;
+        text-align: center;
+    }
+
+    .banner-text a{
+        margin-left: 1em;
+    }
+
+    .jogos img{
+        width: 80%;
+    }
+
+    .proximas-partidas{
+        margin-top: 2em;
+    }
+
+    .proximos-jogos h2{
+        margin-top: 1.5em;
+    }
+
+    .sociais{
+        margin: auto;
+        width: min-content;
+    }
 }
